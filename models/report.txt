@@ -1,0 +1,29 @@
+Best model: xgb
+Selection metric: AP
+
+Validation (AP):
+- xgb: 0.8985
+- hgb: 0.8915
+- et: 0.8690
+- rf: 0.8611
+- tf: 0.7788
+- lr: 0.7311
+- dummy: 0.0167
+
+Cross-validation (AP mean):
+- xgb: 0.8858
+- hgb: 0.8809
+- et: 0.8536
+- rf: 0.8515
+- tf: 0.7577
+- lr: 0.7354
+- dummy: 0.0167
+
+Testing (AP):
+- xgb: 0.9302
+- hgb: 0.9230
+- et: 0.9004
+- rf: 0.8936
+- tf: 0.8281
+- lr: 0.7990
+- dummy: 0.0234

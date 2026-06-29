@@ -1,0 +1,23 @@
+# Ignore everything by default.
+*
+
+# Keep only the project folders intended for GitHub.
+!data/
+!data/**
+data/processed/*.csv
+!models/
+!models/**
+!notebooks/
+!notebooks/**
+!src/
+!src/**
+!tests/
+!tests/**
+
+# Always ignore local/generated files inside allowed folders.
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Keep Git metadata rules readable if this file is updated later.
+!.gitignore
