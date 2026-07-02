@@ -4,6 +4,8 @@
 # Keep only the project folders intended for GitHub.
 !README*.md
 !requirements.txt
+!.python-version
+!runtime.txt
 !data/
 !data/**
 data/processed/*.csv
