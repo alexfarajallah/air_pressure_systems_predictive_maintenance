@@ -3,6 +3,7 @@
 
 # Keep only the project folders intended for GitHub.
 !README*.md
+!requirements.txt
 !data/
 !data/**
 data/processed/*.csv
