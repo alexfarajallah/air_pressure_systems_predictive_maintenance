@@ -2,6 +2,7 @@
 *
 
 # Keep only the project folders intended for GitHub.
+!README*.md
 !data/
 !data/**
 data/processed/*.csv
@@ -18,6 +19,7 @@ data/processed/*.csv
 __pycache__/
 *.py[cod]
 .ipynb_checkpoints/
+tests/.tmp_db/
 
 # Keep Git metadata rules readable if this file is updated later.
 !.gitignore
